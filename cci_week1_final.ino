@@ -200,5 +200,9 @@ if (state ==4){
   right();
 }
 if ((digitalRead(Button_M) == HIGH)&&(digitalRead(Button_L))) 
-state = 0;
+{state = 0;}
+  if ((digitalRead(Button_R) == HIGH)&&(digitalRead(Button_L))) 
+{state = 1;}
+  
+  
 }
