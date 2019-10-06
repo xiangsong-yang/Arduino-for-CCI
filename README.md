@@ -10,7 +10,7 @@ The main objective of this game is to compete the speed of smash buttons with an
 
 The condition of winning is to have obviously higher speed. 
 
-
+<img width="997" src="https://user-images.githubusercontent.com/18093541/63131820-0794d880-bf8d-11e9-8b3d-c096355e9389.png">
 ## Rename this repository to publish your site
 
 We've already set-up a GitHub Pages website for you, based on your personal username. This repository is called `hello-world`, but you'll rename it to: `username.github.io`, to match your website's URL address. If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
