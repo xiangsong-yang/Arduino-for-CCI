@@ -10,8 +10,13 @@ The main objective of this game is to compete the speed of smash buttons with an
 
 The condition of winning is to have obviously higher speed. 
 
-![alt text](images/idea.jpg)]
+![alt text](images/idea.jpg)
 
 The concept of the game
 
-## Ideation
+## The making process
+
+The game is based on Arduino and progammed in Arduino IDE.
+
+Xiangsong used breadboard and pin cables to make prototype and test.
+![alt text](images/test.jpg)
