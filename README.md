@@ -1,6 +1,6 @@
-# Welcome to GitHub
+# Hi. This is the portfolio for Xiangsong Yang's Arduino work in CCI.
 
-Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
+Xiangsong had finished a interactive game with Arduino Lenonardo, 3 button, 3 leds.
 
 ## Repositories
 
