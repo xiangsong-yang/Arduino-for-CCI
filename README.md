@@ -19,4 +19,11 @@ The concept of the game
 The game is based on Arduino and progammed in Arduino IDE.
 
 Xiangsong used breadboard and pin cables to make prototype and test.
-![alt text](images/test.jpg)
+
+![alt text](images/teseting.jpg)
+Testing on arduino with extra LEDS for debugging.
+
+![alt text](images/programing.jpg)
+The program simulation on paper.
+
+
