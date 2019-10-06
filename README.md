@@ -10,5 +10,8 @@ The main objective of this game is to compete the speed of smash buttons with an
 
 The condition of winning is to have obviously higher speed. 
 
+![alt text](images/idea.jpg)]
 
+The concept of the game
 
+## Ideation
