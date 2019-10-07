@@ -90,7 +90,7 @@ void moveIn(){
   
 }
 void game(){
-   int reading = digitalRead(Button_L);
+  int reading = digitalRead(Button_L);
   int reading2 = digitalRead(Button_R);
   int value = 0;
   if (reading != lastButtonState) {
@@ -105,6 +105,7 @@ void game(){
       buttonState = reading;
       if (buttonState == HIGH) {
         counter ++;
+
       }
     }
   }
@@ -114,6 +115,7 @@ if ((millis() - lastDebounceTime2) > debounceDelay) {
       buttonState2 = reading2;
       if (buttonState2 == HIGH) {
         counter2 ++;
+
         
       }
     }
@@ -142,8 +144,6 @@ if ((millis() - lastDebounceTime2) > debounceDelay) {
   if ((counter-counter2) > 5) {
     Serial.println("END");
     Serial.println("Left Win");
-    counter = 0;
-    counter2 = 0;
     digitalWrite(LED_M, HIGH);
     state = 3;
 
@@ -152,8 +152,6 @@ if ((millis() - lastDebounceTime2) > debounceDelay) {
     if ((counter2-counter) > 5) {
     Serial.println("END");
     Serial.println("Right Win");
-    counter = 0;
-    counter2 = 0;
     digitalWrite(LED_M, HIGH);
     state = 4;
 
@@ -161,6 +159,8 @@ if ((millis() - lastDebounceTime2) > debounceDelay) {
   }
       }
   void left(){
+        counter = 0;
+    counter2 = 0;
   delay(600);
   digitalWrite(LED_L, HIGH);
   delay(600);
@@ -172,6 +172,8 @@ if ((millis() - lastDebounceTime2) > debounceDelay) {
   }
 }
 void right(){
+      counter = 0;
+    counter2 = 0;
   delay(1000);
   digitalWrite(LED_R, HIGH);
   delay(1000);
@@ -199,10 +201,8 @@ if (state ==3){
 if (state ==4){
   right();
 }
-if ((digitalRead(Button_M) == HIGH)&&(digitalRead(Button_L))) 
-{state = 0;}
-  if ((state != 1)&&(digitalRead(Button_R) == HIGH)&&(digitalRead(Button_L))) 
-{state = 1;}
-  
-  
+if ((digitalRead(Button_M) == HIGH)&&(digitalRead(Button_L))) {
+state = 0;}
+if ((state != 2)&&(digitalRead(Button_R) == HIGH)&&(digitalRead(Button_L))) {
+state = 1;}
 }
