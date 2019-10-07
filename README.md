@@ -1,4 +1,4 @@
-# Hi. This is the portfolio for Xiangsong Yang's Arduino work in CCI.
+# Hi. This is the folder for Xiangsong Yang's Arduino work in CCI.
 
 
 
