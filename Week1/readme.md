@@ -1,4 +1,6 @@
-# Hi. This is the portfolio for Xiangsong Yang's Arduino work in CCI.
+# This is the portfolio for Xiangsong Yang's Arduino work in CCI.
+
+## Game OOPS
 
 Xiangsong had finished a interactive game"OOPS" with Arduino Lenonardo, 3 button, 3 LEDS. 
 
@@ -25,7 +27,7 @@ The main objective of this game is to compete the speed of smash buttons with an
 
 The condition of winning is to have obviously higher speed. 
 
-![alt text](images/idea.jpg)
+![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/images/idea.jpg?raw=true)
 
 The concept of the game
 
@@ -35,10 +37,10 @@ The game is based on Arduino and progammed in Arduino IDE.
 
 Xiangsong used breadboard and pin cables to make prototype and test.
 
-![alt text](images/teseting.jpg)
+![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/images/teseting.jpg?raw=true)
 Testing on arduino with extra LEDS for debugging.
 
-![alt text](images/programing.jpg)
+![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/images/programing.jpg?raw=true)
 The program simulation on paper.
 
 
