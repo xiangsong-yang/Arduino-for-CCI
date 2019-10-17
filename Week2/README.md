@@ -51,3 +51,15 @@ From the equation, 1/R total = 1/r1 + 1/r2 + 1/r3 +... in parallel circuit
 ![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/images/Parallel_caculation.JPG?raw=true)
 
 From Xiangsong's understanding, the 220k resistor should be connect in serial with the LEDS as shown below. The caculation in theory shows the result of possible number n. In the same condition of current of using 3 LEDs in serial, which has the current of 0.015 mA and led resistance as 110k the number n would be around 220.
+
+### Lab01-Serial Data
+By using the example for Pheonix, Xiangsong and the group understood the principle of the example and some key feature for setting up serial in Arduino.
+
+Serial.Begin(9600); // this is the speed of the serial port runs
+Serial.availbe(); //this is the reading command
+Serail.print();// this is for print in the serial monitor
+Serial.println;// this i for print in lines in serial monitor
+
+### Lab02-Potentiometers
+This is a convient component for controlling by using variable resistor. The diagram of the inner cuicirt shows below. In this diagram, aruduino is reading the analog data which is voltage variation from the reading pin and ground pin.
+![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/images/knob.JPG?raw=true)
