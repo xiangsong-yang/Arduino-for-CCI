@@ -15,40 +15,54 @@ In parallel circuit, every component is connect in parallel, every component has
 
 From the equation, the U = IR, the component's resistance, volate or current can be caculated by given two of them.
 
-In parallel circuit, every component is connect in parallel, every component has the same voltage applied on each side. For components like LEDs, Resistors, the relationship of resistance in total and each components can be caculated as R total = r1 + r2 + r3 + ...
+In parallel circuit, every component is connect in parallel, every component has the same voltage applied on each side. For components like LEDs, Resistors, the relationship of resistance in total and each components can be caculated as 
+R total = r1 + r2 + r3 + ...
 
-In parallel circuit, every component is connect in parallel, every component has the same voltage applied on each side.For LEDs and Resistors, the relationship of resistance in total and each components can be caculated as 1/R total = 1/r1 + 1/r2 + 1/r3 +...
+In parallel circuit, every component is connect in parallel, every component has the same voltage applied on each side.For LEDs and Resistors, the relationship of resistance in total and each components can be caculated as 
+1/R total = 1/r1 + 1/r2 + 1/r3 +...
 
+In these question, the meanning of the runnning out of voltage should be not enough current to power the LED.
 
 #### Question 1: How many leds can you hook up with a 220k resistor in serial before running out of voltage?
 For question 1, everything connect in serial, this process can be seen as making a huge resistor.
 
 From the equation, R total = r1 + r2 +r3+...
 
-when everything was connected in 
+In ideal situation, the I total = U/ Rtotal
 
-## Ideation
+The minimum current to power the led can be worked out by testing with arduino and multimemter.
 
-OOPS is a game that designed to have competitional and interactive gaming experience with peer. 
+the number of LEDs n, in the equation and solve the equation, it should be:
 
-The main objective of this game is to compete the speed of smash buttons with another competitor. 
+![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/images/Serial_caculation.JPG?raw=true)
 
-The condition of winning is to have obviously higher speed. 
+n = (5-220k * I)/ I * r LED  (I means minimal current to power LED)
 
-![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/images/idea.jpg?raw=true)
+In the real testing with arduino, the number of LED is 3 in total.
 
-The concept of the game
+#### Question 1: How many leds can you hook up with a 220k resistor in serial before running out of voltage?
+For question 1, everything connect in serial, this process can be seen as making a huge resistor.
 
-## The making process
+From the equation, R total = r1 + r2 +r3+...
 
-The game is based on Arduino and progammed in Arduino IDE.
+In ideal situation, the I total = U/ Rtotal
 
-Xiangsong used breadboard and pin cables to make prototype and test.
+The minimum current to power the led can be worked out by testing with arduino and multimemter.
 
-![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/images/teseting.jpg?raw=true)
-Testing on arduino with extra LEDS for debugging.
+the number of LEDs n, in the equation and solve the equation, it should be:
 
-![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/images/programing.jpg?raw=true)
-The program simulation on paper.
+![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/images/Serial_caculation.JPG?raw=true)
 
+n = (5-220k * I)/ I * r LED  (I means minimal current to power LED)
+
+In the real testing with arduino, the number of LED is 3 in total.
+
+
+
+#### Question 2: How many leds can you hook up with a 220k resistor in parallel before running out of voltage?
+For question 1, everything connect in serial, this process can be seen as making a huge resistor.
+
+From the equation, 1/R total = 1/r1 + 1/r2 + 1/r3 +...
+
+From Xiangsong's understanding, the 220k resistor should be connect in serial with the LEDS as shown below. The caculation in theory shows the result of possible number n. In the same condition of current of using 3 LEDs in serial, which has the current of 0.015 mA and led resistance as 110k the number n would be around 220.
 
