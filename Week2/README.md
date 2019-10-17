@@ -83,4 +83,11 @@ From the datesheet, there will be 3 pins that need to be connected to Arduino- P
 
 Feonix had already soldered the pns. In order to make reliable coonect, the wires with clips had been used for making circuit.
 
+The way sensor works is to count the time from making sound wave until receiving the wave. the half time of sound travling would be the time for the sound travels through the distance. When it times speed of the sounds in air, the distance can be worked out.
+
+From the data sheet, the onboard circuit had made the convert and the Tx pin will be sending voltage to the analog ports on arduino. The distance would be (Vcc/512) / inch.
+
+This sensor has many applications for interactive items, it can be seen as a sensor for detecting the distance for safety or detecting the movement.
+
+
 
