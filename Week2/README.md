@@ -63,3 +63,16 @@ Serial.println;// this i for print in lines in serial monitor
 ### Lab02-Potentiometers
 This is a convient component for controlling by using variable resistor. The diagram of the inner cuicirt shows below. In this diagram, aruduino is reading the analog data which is voltage variation from the reading pin and ground pin.
 ![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/images/knob.JPG?raw=true)
+
+### Lab03-Light Dependent Resistors
+
+This is the variable resistor which changes its resistance with light intensity. It can be easily tested by the multimeter. It can be applied as:
+
+(1)In circuil in serail with LED to change the lightness of the light directly 
+
+(2)Apply it with independent circuit for arduino to get the analog read and use it to control the LED in the circuit. 
+
+The first way is easier but the lightness of the LED will be affect much. The seond principle is harder to set up, but it can control the lightness of the LED in proper way.
+
+
+### Lab04-Light Dependent Resistors
