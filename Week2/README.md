@@ -75,4 +75,12 @@ This is the variable resistor which changes its resistance with light intensity.
 The first way is easier but the lightness of the LED will be affect much. The seond principle is harder to set up, but it can control the lightness of the LED in proper way.
 
 
-### Lab04-Light Dependent Resistors
+### Lab04-Light Playing with Common Sensors
+
+In this session, Xiangsong got a Ultrasonic sensor- MB1040 LV-MaxSonar-EZ4. 
+
+From the datesheet, there will be 3 pins that need to be connected to Arduino- Power, Ground, Tx. They are connected to to 5v, GND, and a Analog read.
+
+Feonix had already soldered the pns. In order to make reliable coonect, the wires with clips had been used for making circuit.
+
+
