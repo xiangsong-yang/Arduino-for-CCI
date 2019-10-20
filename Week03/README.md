@@ -47,7 +47,13 @@ The circuit didn't work at all and the student are struggling solving it. With t
 
 ![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/Week03/image/Transistor_2.JPG?raw=true)
 
+![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/Week03/image/Transistor_1.JPG?raw=true)
+
 [Testing video for transistors](https://youtu.be/kmYKmtS6u_I) 
 
 #### Soldering
-The soldering is a new skill to the student group. 
+The soldering is a new skill to the student group. it requires the precise handling and the clear idea of circuit. 
+![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/Week03/image/Soldering.jpg?raw=true)
+
+Students tried to remove the solder on the board. It is quite hard to master.
+![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/Week03/image/remove.jpg?raw=true)
