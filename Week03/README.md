@@ -21,6 +21,9 @@ So the arduino is sending pulse every 20ms in PWM digital pins, the length of th
 
 Also, the coding part of the "Fade" has used a smart way to achieve effect, which is flip the value of the lightness into negative value for using the same equation to go back. This is an easier way to make the programming for its purpose. Also, the minimum use of equation by applying the OR function in the statement is the vital part of the code and worthy learning.
 
+<a href="https://youtu.be/kmYKmtS6u_I" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 #### Potentometer
 
 Potentometer was used in week2. The princicple of using it is to use the variable resistor for changing the voltage for voltage divider. It can be using for changing the lightness of a LED or something that can be affect buy the value fo the voltage.
