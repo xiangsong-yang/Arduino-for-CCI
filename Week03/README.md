@@ -6,7 +6,8 @@ In week3, Xiangsong had finished the 3 lab teseting, which is mainly about using
 
 The detail of the labs will be explained below.
 
-### Lab00-PWM and LED - Fade
+### Lab00-PWM and LED 
+#### Fade
 
 This session is mainly about exploring the controlling ability of the digital pins on Arduino by using PWM. 
 
@@ -15,6 +16,15 @@ As Phoenix mentioned before, digital pins on Arduino are for reading and transim
 According to the week 3 lecture by Phoenix, "Pulse Width Modulation(PWM) can makes a digital pin act analogish". 
 
 So the arduino is sending pulse every 20ms in PWM digital pins, the length of the pulse will affecft the voltage sent to the pins. In this way, controlling LED and motors is possible for digital pins.
+
+![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/images/knob.JPG?raw=true)
+
+Also, the coding part of the "Fade" has used a smart way to achieve effect, which is flip the value of the lightness into negative value for using the same equation to go back. This is an easier way to make the programming for its purpose. Also, the minimum use of equation by applying the OR function in the statement is the vital part of the code and worthy learning.
+
+#### Potentometer
+
+Potentometer was used in week2. The princicple of using it is to use the variable resistor for changing the voltage for voltage divider. It can be using for changing the lightness of a LED or something that can be affect buy the value fo the voltage.
+![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/images/knob.JPG?raw=true)
 
 ### Lab01-Serial Data
 By using the example for Pheonix, Xiangsong and the group understood the principle of the example and some key feature for setting up serial in Arduino.
