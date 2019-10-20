@@ -21,7 +21,7 @@ So the arduino is sending pulse every 20ms in PWM digital pins, the length of th
 
 Also, the coding part of the "Fade" has used a smart way to achieve effect, which is flip the value of the lightness into negative value for using the same equation to go back. This is an easier way to make the programming for its purpose. Also, the minimum use of equation by applying the OR function in the statement is the vital part of the code and worthy learning.
 
-[Testing video](https://youtu.be/kmYKmtS6u_I) 
+[Testing video for Fade](https://youtu.be/CAo5DdvVg3k) 
 
 #### Potentometer
 
@@ -40,3 +40,14 @@ Also, this is a training for students to get begin with unfamiliar components by
 
 Pheonix had shared the example of the circuit and the circuit diagram. 
 ![alt text](https://i0.wp.com/cdn.makezine.com/uploads/2014/10/wp20_schematic_w_circle-transistor.png?zoom=2&resize=719%2C421)
+
+By connecting the circuit, students use cables and breadboard. The process had not been smooth at the beginning. 
+
+The circuit didn't work at all and the student are struggling solving it. With the help of Pheonix, the problem is the realiablity of the cables and the breadboard. Several problem cables were found out by using multimeter. At the end, the circuit worked as expected.
+
+![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/Week03/image/Transistor_2.JPG?raw=true)
+
+[Testing video for transistors](https://youtu.be/kmYKmtS6u_I) 
+
+#### Soldering
+The soldering is a new skill to the student group. 
