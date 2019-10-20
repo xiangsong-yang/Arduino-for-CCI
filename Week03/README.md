@@ -17,7 +17,7 @@ According to the week 3 lecture by Phoenix, "Pulse Width Modulation(PWM) can mak
 
 So the arduino is sending pulse every 20ms in PWM digital pins, the length of the pulse will affecft the voltage sent to the pins. In this way, controlling LED and motors is possible for digital pins.
 
-![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/images/knob.JPG?raw=true)
+![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/Week03/image/simplefade_bb.png?raw=true)
 
 Also, the coding part of the "Fade" has used a smart way to achieve effect, which is flip the value of the lightness into negative value for using the same equation to go back. This is an easier way to make the programming for its purpose. Also, the minimum use of equation by applying the OR function in the statement is the vital part of the code and worthy learning.
 
