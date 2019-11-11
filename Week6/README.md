@@ -14,7 +14,7 @@ Capacitors charge by the power applied, and it will generate current. The curren
 Capacitors can be used widely, from flashing in a camera to the motherboard in a PC. 
 
 ### Lab1- Simple synths
-[Testing video for servo motor controlling](https://youtu.be/ZaVQmLFoAKQ) 
+[Testing video for synthesizer](https://youtu.be/ZaVQmLFoAKQ) 
 
 The lab is about making a synth with oscillator, capacitors and resistors.
 
