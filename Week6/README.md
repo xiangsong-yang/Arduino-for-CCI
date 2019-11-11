@@ -14,7 +14,7 @@ Capacitors charge by the power applied, and it will generate current. The curren
 Capacitors can be used widely, from flashing in a camera to the motherboard in a PC. 
 
 ### Lab1- Simple synths
-[Testing video for servo motor controlling](https://youtu.be/JyZFUj0twrY) 
+[Testing video for servo motor controlling](https://youtu.be/ZaVQmLFoAKQ) 
 
 The lab is about making a synth with oscillator, capacitors and resistors.
 
@@ -36,4 +36,4 @@ The outcome is quite exciting for studetns. The lab is playful for studetns. In 
 
 Students also tried to apply two oscillators at the same time, but did not succe. The possible reason for the failure can be the wrong coonecting for the components.
 ![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/Week6/image/circuit2.jpg?raw=true)
-(Finished circuit)
+(Probelm circuit with two oscillators)
