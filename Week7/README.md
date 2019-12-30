@@ -31,4 +31,7 @@ OE: Output Enable pin, for disables outpus when HIGH.
 Shift registers can be chained for extending number of output/input pins controlling. 
 The basic chainning diagram is shown as below.
 
-![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/Week7/Image/Shfit2.png?raw=true)
+![alt text](https://github.com/xiangsong-yang/Arduino-for-CCI/blob/master/Week7/Image/Shfit3.png?raw=true)
+
+### Class LAB
+Student had figured out how to do the wiring and finished the LED controlling with povided code.
